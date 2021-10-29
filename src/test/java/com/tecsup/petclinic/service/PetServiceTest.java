@@ -106,7 +106,7 @@ public class PetServiceTest {
 	        Pet petCreated = petService.create(pet);
 	        
 	        logger.info("PET CREATED:" + pet);
-	        //          ACTUAL                 , EXPECTED 
+	        //          ACTUAL                , EXPECTED 
 	        assertThat(petCreated.getId()      , notNullValue());
 	        assertThat(petCreated.getName()    , is(PET_NAME));
 	        assertThat(petCreated.getOwnerId() , is(OWNER_ID));
