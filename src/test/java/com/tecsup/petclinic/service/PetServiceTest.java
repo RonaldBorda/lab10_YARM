@@ -112,12 +112,12 @@ public class PetServiceTest {
 	        assertThat(petCreated.getOwnerId() , is(OWNER_ID));
 	        assertThat(petCreated.getTypeId()  , is(TYPE_ID));
 	    }
-
+	  	//Cambio de prueba
 
 	/**
 	 * 
 	 */
-	//@Test
+	@Test
 	public void testUpdatePet() {
 
 		String PET_NAME = "Bear";
@@ -157,7 +157,7 @@ public class PetServiceTest {
 	/**
 	 * 
 	 */
-	//@Test
+	@Test
 	public void testDeletePet() {
 
 		String PET_NAME = "Bird";
